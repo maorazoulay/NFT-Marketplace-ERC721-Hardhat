@@ -4,7 +4,8 @@ This project contains the smart contracts needed for a functioning ERC-721  base
 
 The project utillizes the Hardhat framework along with its useful plugins such as "hardhat-gas-reporter", "solidity-coverage", "hardhat-waffle" and "hardhat-etherscan".
 
-The main contract, "Marketplace.sol" comes with unit tests which can be run by running "npx hardhat test". 
+The main contract, "Marketplace.sol" utiliizes best practices by using OpenZepplin's libraries wherever possible, such as ERC721.sol, IERC721Receiver.sol, ReentrancyGuard.sol and Counters.sol. 
+The contract also comes with the appropriate unit tests which can be run by running "npx hardhat test".
 
 ## Installation
 
