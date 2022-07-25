@@ -18,3 +18,9 @@ Compile the Smart Contracts:
 ```bash
 npx hardhat compile
 ```
+
+## Deployment
+
+to deploy the marketplace run the following command: "npx run .\scripts\0-deploy-marketplace.js"
+
+Add the --network flag to choose your desired network. (runs on Hardhat local network by default)
